@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+
+	<header>
+		<div class="container">
+		<div id="brandname">
+		</div>
+		<h2>Instagrade</h2>
+		
+	</div>
+	</header>
+	<p style="color:blue;font-size:20;text-align: left;"><b>Your
+	Score</b></p>
+	<div class="results">
+
+
+		
+	<h2 style="color:red;">{% print(prediction) %}</h2>
+
+
+	</div>
+
+</body>
+</html>
